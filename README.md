@@ -18,3 +18,6 @@ Installation
 - Check the vercions the php folder
 - Support for CKEditor
 
+integration
+===========
+- Duplicate the folder wh-the-finder to your project folder view and customize there
