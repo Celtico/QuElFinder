@@ -13,9 +13,9 @@ Requirements
 Installation
 ============
 - Drag a folder in modules or vendor
-- Download the latest vercio elfinder and placing somewhere in the public folder
+- Download the latest version elfinder and placing somewhere in the public folder
 - Enable and configure the module has application.config.php routes module.config.php
-- Check the vercions the php folder 2.0
+- Check the version the php folder 2.0
 
 Integration
 ===========
