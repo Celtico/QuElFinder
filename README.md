@@ -1,28 +1,26 @@
 QuElFinder
 ==========
 
-Zf2 module for the elfinder
+Zf2 module for elfinder
 
 Requirements
 ============
 - ZendSkeletonApplication 
   https://github.com/zendframework/ZendSkeletonApplication
-- El Finder
+- ElFinder
   http://elfinder.org/
 
 Installation
 ============
-- Drag a folder in modules or vendor
-- Download the latest version elfinder and placing somewhere in the public folder
-- Enable and configure the module has application.config.php routes module.config.php
-- Check the version the php folder 2.0
+- Drag the folder into modules folder or vendor folder
+- Download the latest version elfinder and place in the public folder (you can place in somewhere)
+- Enable the module with the application.config.php and configure the routes with module.config.php
+- Check the version php folder 2.0
 
 Integration
 ===========
-- Duplicate the folder wh-the-finder to your project folder view and customize there
+- Duplicate the folder wh-the-finder to your project in the folder view and customize there
 
 Support
 =======
 - CKEditor integration
-
-> Sorry for the spelling errors
