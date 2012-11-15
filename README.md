@@ -26,4 +26,3 @@ Support
 - CKEditor integration
 
 > Sorry for the spelling errors
-> I'm from spain Catalonia
