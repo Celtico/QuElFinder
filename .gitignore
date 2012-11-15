@@ -1,6 +1,7 @@
 INSTALL.txt
 LICENSE.txt
 README.txt
+.DS_Store
 demos/
 extras/documentation
 
