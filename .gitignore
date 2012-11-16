@@ -1,7 +1,10 @@
-INSTALL.txt
-LICENSE.txt
-README.txt
 .DS_Store
-demos/
-extras/documentation
+
+.gitignore
+
+src/.DS_Store
+
+src/QuElFinder/.DS_Store
+
+src/QuElFinder/php/.DS_Store
 
