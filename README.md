@@ -30,7 +30,7 @@ Installation
 
 Integration
 ========================
-- Duplicate the folder wh-the-finder to your project in the folder view and customize there
+- Duplicate the folder qu-el-finder to your project in the folder view and customize there
 
 Support
 ========================
