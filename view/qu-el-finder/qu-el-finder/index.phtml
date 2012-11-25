@@ -6,6 +6,7 @@
         ->prependStylesheet($this->basePath($QuBasePath) . '/jquery/ui-themes/smoothness/jquery-ui-1.8.23.custom.css')
     ;
     $this->headScript()
+        // Select language
         ->prependFile($this->basePath($QuBasePath) . '/js/i18n/elfinder.ca.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/js/elfinder.min.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/jquery/jquery-ui-1.8.23.custom.min.js', 'text/javascript')
@@ -23,6 +24,8 @@
 
     $('#elfinder').elfinder({
         url : '<?=$ConnectorPath?>',
+        // Select language with exist in library
+        // lang : 'ca',
         height:'500'
     }).elfinder('instance');
 

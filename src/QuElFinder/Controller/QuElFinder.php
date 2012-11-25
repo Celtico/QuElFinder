@@ -45,12 +45,6 @@ class QuElFinder extends AbstractActionController
     public function connectorAction()
     {
         $view       = new ViewModel();
-
-        include_once dirname(__DIR__) . '/php/elFinderConnector.class.php';
-        include_once dirname(__DIR__) . '/php/elFinder.class.php';
-        include_once dirname(__DIR__) . '/php/elFinderVolumeDriver.class.php';
-        include_once dirname(__DIR__) . '/php/elFinderVolumeLocalFileSystem.class.php';
-
         $this->getConfig();
 
         $opts = array(

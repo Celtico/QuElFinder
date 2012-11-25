@@ -10,8 +10,10 @@
         ->prependStylesheet($this->basePath($QuBasePath) . '/jquery/ui-themes/smoothness/jquery-ui-1.8.23.custom.css')
     ;
     echo $this->headScript()
+        // Back and elFinder.options provider image in CKEditor
         ->prependFile($this->basePath($QuBasePath) . '/js/back.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/js/elFinder.options.js', 'text/javascript')
+        // Select language
         ->prependFile($this->basePath($QuBasePath) . '/js/i18n/elfinder.ca.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/js/elfinder.min.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/jquery/jquery-ui-1.8.23.custom.min.js', 'text/javascript')
@@ -26,10 +28,11 @@
 
 <script type="text/javascript" charset="utf-8">
 
+    // The info provider https://github.com/Studio-42/elFinder/wiki/Integration-with-CKEditor
     // Helper function to get parameters from the query string.
     function getUrlParam(paramName) {
         var reParam = new RegExp('(?:[\?&]|&amp;)' + paramName + '=([^&]+)', 'i') ;
-        var match = window.location.search.match(reParam) ;
+        var match   = window.location.search.match(reParam) ;
 
         return (match && match.length > 1) ? match[1] : '' ;
     }
@@ -39,6 +42,7 @@
 
         var elf = $('#elfinder').elfinder({
             url : '<?=$ConnectorPath?>',
+            // Select language with exist in library
             lang : 'ca',
             height:'570',
             getFileCallback : function(file) {
