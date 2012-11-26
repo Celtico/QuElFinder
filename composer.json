@@ -1,21 +1,15 @@
 {
-    "name": "qu/elfinder",
-    "description": "Zf2 module for ElFinder",
+    "name": "qu-modules/qu-elfinder",
+    "description": "ZF2 module for ElFinder",
     "type": "module",
-    "version":"1.0.1-dev",
-    "keywords": [
-        "elfinder",
-        "zf2",
-        "module"
-    ],
-
-    "homepage": "https://github.com/Celtico/ElFinder/",
+    "version":"0.0.2-dev",
+    "keywords": ["elfinder","zf2","module"],
+    "homepage": "https://github.com/Celtico/QuElFinder/",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*"
     },
-
     "authors": [
         {
             "name": "Cel Ticó Petit",
@@ -24,8 +18,15 @@
             "role": "Developer"
         }
     ],
-
     "support": {
         "email": "cel@cenics.net"
+    },
+    "autoload": {
+        "psr-0": {
+            "QuElFinder": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }

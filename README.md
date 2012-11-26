@@ -1,4 +1,4 @@
-QuElFinder 1.0.1
+QuElFinder 0.0.2-dev
 ========================
 
 Zf2 module for ElFinder
@@ -6,11 +6,11 @@ Zf2 module for ElFinder
 Release Notes
 ========================
 
-1.0.0-dev
+0.0.1-dev
 
 - Initiation ElFinder in zf2
 
-1.0.1-dev
+0.0.2-dev
 
 - Initiation auto load class map
 
@@ -28,11 +28,18 @@ Installation
 - Enable the module with the application.config.php and configure the routes with module.config.php
 - Check the version php folder 2.0
 
-### Composer / Packagist
-```
-% composer.phar require qu/elfinder
-Please provide a version constraint for the qu/elfinder requirement: 1.0.1-dev
-```
+Installation by Composer
+========================
+
+In my experience, to avoid errors
+
+- cd /Users/YourName/Desktop/YourFolderProject/
+- /Applications/YourSever/bin/php/php5.3.6/bin/php /Users/YourName/Desktop/YourFolderProject/composer.phar install
+
+In the errors check and install
+
+- http://git-scm.com/downloads
+- http://getcomposer.org/download
 
 Integration
 ========================
