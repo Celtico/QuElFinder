@@ -14,17 +14,19 @@ Release Notes
 
 - Initiation auto load class map
 
+Demo example
+==================================
+
+http://qumodules.com/
+
 Requirements
 ========================
-- ZendSkeletonApplication 
-  https://github.com/zendframework/ZendSkeletonApplication
-- ElFinder
-  http://elfinder.org/
+- ZendSkeletonApplication https://github.com/zendframework/ZendSkeletonApplication
 
 Installation
 ========================
 - Drag the folder into modules folder or vendor folder
-- Download the latest version elfinder and place in the public folder (you can place in somewhere)
+- Move folder plugin in to public folder (look current version)
 - Enable the module with the application.config.php and configure the routes with module.config.php
 - Check the version php folder 2.0
 

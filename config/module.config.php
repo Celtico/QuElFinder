@@ -4,6 +4,7 @@
  * @Contact: cel@cenics.net
  * @Company: Cencis s.c.p.
  */
+//echo dirname(dirname(dirname(__DIR__))) .'/web/uploads/files/plupload/';
 return array(
 
     'controllers' => array(
@@ -52,11 +53,11 @@ return array(
         'QuElFinder'=>array(
             'QuRoots'=>array(
                 'driver'        => 'LocalFileSystem',
-                'path'          =>  dirname(dirname(dirname(__DIR__))) .'/public/uploads/files/',
-                'URL'           =>  '/uploads/files/',
+                'path'          =>  dirname(dirname(dirname(__DIR__))) .'/web/uploads/files/plupload/',
+                'URL'           =>  '/uploads/files/plupload/',
                 'accessControl' => 'access'
             ),
-            'QuBasePath'=>'/qu-admin/js/plugins/elfinder',
+            'QuBasePath'=>'/js/plugins/elfinder',
         ),
     ),
     'view_manager' => array(
