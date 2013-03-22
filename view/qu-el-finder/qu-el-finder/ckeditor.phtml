@@ -10,12 +10,18 @@
         ->prependStylesheet($this->basePath($QuBasePath) . '/jquery/ui-themes/smoothness/jquery-ui-1.8.23.custom.css')
     ;
     echo $this->headScript()
-        // Back and elFinder.options provider image in CKEditor
-        ->prependFile($this->basePath($QuBasePath) . '/js/back.js', 'text/javascript')
-        ->prependFile($this->basePath($QuBasePath) . '/js/elFinder.options.js', 'text/javascript')
-        // Select language
+
+         // Select language
         ->prependFile($this->basePath($QuBasePath) . '/js/i18n/elfinder.ca.js', 'text/javascript')
+
+        // elFinder.options provider image in CKEditor
+        //https://github.com/Studio-42/elFinder/blob/2.x/js/elFinder.options.js
+        ->prependFile($this->basePath($QuBasePath) . '/js/elFinder.options.js', 'text/javascript')
+
+        //elfinder.min rc version
+        //https://github.com/Studio-42/elFinder/tags
         ->prependFile($this->basePath($QuBasePath) . '/js/elfinder.min.js', 'text/javascript')
+
         ->prependFile($this->basePath($QuBasePath) . '/jquery/jquery-ui-1.8.23.custom.min.js', 'text/javascript')
         ->prependFile($this->basePath($QuBasePath) . '/jquery/jquery-1.8.1.min.js', 'text/javascript')
 
