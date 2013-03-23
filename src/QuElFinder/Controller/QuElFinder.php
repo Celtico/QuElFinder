@@ -14,16 +14,8 @@ class QuElFinder extends AbstractActionController
 
     protected $Config;
 
-    /**
-     * @return array|\Zend\View\Model\ViewModel
-     */
-    public function indexAction()
-    {
-        $view = new ViewModel();
-        $this->getConfig();
-        $view->QuBasePath = $this->Config['QuBasePath'];
-        $view->ConnectorPath = '/quelfinder/connector';
-        return $view;
+
+    public function indexAction(){
     }
 
     /**
@@ -33,8 +25,7 @@ class QuElFinder extends AbstractActionController
     {
         $view = new ViewModel();
         $this->getConfig();
-        $view->QuBasePath    = $this->Config['QuBasePath'];
-        $view->ConnectorPath = '/quelfinder/connector';
+        $view->QuBasePath = $this->Config['BasePath'];
         $view->setTerminal(true);
         return $view;
     }

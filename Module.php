@@ -10,6 +10,23 @@ class Module
 {
 
     /**
+     * @return array
+     */
+    public function getViewHelperConfig()
+    {
+        return array(
+            'factories' => array(
+                'QuElFinder' => function ($sm) {
+                    $config = $sm->getServiceLocator()->get('config');
+                    $QuEl = new View\Helper\QuElFinder($config['QuConfig']['QuElFinder']);
+                    return $QuEl;
+                },
+            ),
+        );
+
+    }
+
+    /**
      * @return mixed
      */
     public function getConfig()
