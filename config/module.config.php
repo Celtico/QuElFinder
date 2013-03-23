@@ -84,7 +84,7 @@ return array(
                         'commands',
                         'fonts',
                         */
-
+                        'style',
                         'theme',
                         'elfinder.min',
 
