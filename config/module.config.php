@@ -56,6 +56,14 @@ return array(
                 'path'          =>  dirname(dirname(dirname(__DIR__))) .'/web/uploads/files/plupload/',
                 'URL'           =>  '/uploads/files/plupload/',
                 'accessControl' => 'access',
+                'attributes' => array(
+                    array(
+                        'read'   => false,
+                        'write'  => false,
+                        'locked' => true,
+                        'hidden' => false
+                    )
+                )
 
             ),
 
@@ -109,7 +117,7 @@ return array(
                     'workzone',
                     'navbar',
                     'dialog',
-                    'tree',
+                    //'tree',
                     'cwd',
                     'toolbar',
                     'button',
