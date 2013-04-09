@@ -53,7 +53,7 @@ return array(
         'QuElFinder'=>array(
             'QuRoots'=>array(
                 'driver'        => 'LocalFileSystem',
-                'path'          =>  dirname(dirname(dirname(__DIR__))) .'/web/uploads/files/plupload/',
+                'path'          =>  dirname(dirname(dirname(dirname(__DIR__)))) .'/public/uploads/files/plupload/',
                 'URL'           =>  '/uploads/files/plupload/',
                 'accessControl' => 'access',
                 'attributes' => array(
