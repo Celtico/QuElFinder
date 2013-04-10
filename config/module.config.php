@@ -53,7 +53,10 @@ return array(
         'QuElFinder'=>array(
             'QuRoots'=>array(
                 'driver'        => 'LocalFileSystem',
-                'path'          =>  dirname(dirname(dirname(dirname(__DIR__)))) .'/public/uploads/files/plupload/',
+                //Module
+                'path'  =>  dirname(dirname(dirname(__DIR__)))  . '/web/uploads/files/plupload',
+                //Vendor
+                //'path'  =>  dirname(dirname(dirname(dirname(__DIR__))))  . '/public/uploads/files/plupload',
                 'URL'           =>  '/uploads/files/plupload/',
                 'accessControl' => 'access',
                 'attributes' => array(
@@ -164,7 +167,7 @@ return array(
                 ),
 
                 'i18n'=> array(
-                    'elFinder.ca'
+                    'elfinder.ca'
                 ),
             ),
         ),
