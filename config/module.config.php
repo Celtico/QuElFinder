@@ -54,9 +54,9 @@ return array(
             'QuRoots'=>array(
                 'driver'        => 'LocalFileSystem',
                 //Module
-                'path'  =>  dirname(dirname(dirname(__DIR__)))  . '/web/uploads/files/plupload',
+                'path'  =>  dirname(dirname(dirname(__DIR__)))  . '/web/uploads/files',
                 //Vendor
-                //'path'  =>  dirname(dirname(dirname(dirname(__DIR__))))  . '/public/uploads/files/plupload',
+                //'path'  =>  dirname(dirname(dirname(dirname(__DIR__))))  . '/public/uploads/files',
                 'URL'           =>  '/uploads/files/plupload/',
                 'accessControl' => 'access',
                 'attributes' => array(
